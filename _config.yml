@@ -1,10 +1,10 @@
-title: Website title
+title: Tool Assembly
 # This appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-topnav_title: Website title
+topnav_title: Tool Assembly
 # Optional: this appears on the top navigation bar next to the main_logo.svg icon
 
-description: "Example of ELIXIR toolkit theme as a remote jekyll theme"
+description: "Tool Assembly for researchers in the Life Sciences and Health."
 # Metadata description of the website
 
 remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@4.1.0
@@ -30,11 +30,11 @@ theme_variables:
   # back_to_top: true
   # dev-info-banner: false
   # privacy_statement_url: /privacy
-  # github_buttons: 
-  #   position: top
-  #   edit_me: true
-  #   open_issue: true
-  #   history: true
+   github_buttons:
+     position: top
+     edit_me: false
+     open_issue: false
+     history: false
   # datatables:
   #   searchbuilder: True
   # headings:

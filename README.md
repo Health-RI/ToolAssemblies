@@ -1,3 +1,5 @@
+[![theme badge](https://img.shields.io/badge/ELIXIR%20toolkit%20theme-jekyll-blue?color=0d6efd)](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme)
+
 # ToolAssemblies
 Repository for the Health-RI tool assemblies.
 The ToolAssemblies use the [ELIXIR Toolkit Theme](https://elixir-belgium.github.io/elixir-toolkit-theme/)
