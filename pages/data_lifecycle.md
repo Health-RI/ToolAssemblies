@@ -9,7 +9,8 @@ title: Data Lifecycle
             </div>
         </div>
       <div class="col">
-        <p id="display-text">Click on a stage to read the description.</p>
+        <h3 id="display-stage-name">{{ site.data.lifecycle_stages[0].name }}</h3>
+        <p id="display-stage-description">{{ site.data.lifecycle_stages[0].text }}</p>
       </div>
     </div>
 </div>
@@ -18,7 +19,7 @@ title: Data Lifecycle
   document.addEventListener("DOMContentLoaded", function () {
     const iconTexts = {
       {% for item in site.data.lifecycle_stages %}
-        "{{ item.id }}": "{{ item.text | escape }}",
+        "{{ item.id }}": { text: "{{ item.text | escape }}", name: "{{ item.name | escape }}" },
       {% endfor %}
     };
 
@@ -27,7 +28,8 @@ title: Data Lifecycle
       if (el) {
         el.style.cursor = 'pointer';
         el.addEventListener('click', function () {
-          document.getElementById('display-text').textContent = iconTexts[id];
+          document.getElementById('display-stage-name').textContent = iconTexts[id].name;
+          document.getElementById('display-stage-description').textContent = iconTexts[id].text;
         });
       }
     });
