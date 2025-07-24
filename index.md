@@ -21,7 +21,7 @@ These integrated sets will ultimately be made accessible through the
 
 ### Tool assemblies and the data life cycle
 
-The tools can be mapped to the different stages of the [data life cycle](/data_lifecycle)
+The tools can be mapped to the different stages of the [data life cycle]({{site.baseurl}}/data_lifecycle)
 to provide an overview of which tools are used during each phase of the 
 research process and to identify which tools need to be functionally connected 
 (i.e. the output of one tool serves as the input for another).

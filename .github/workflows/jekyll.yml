@@ -34,6 +34,15 @@
          run: |
            bundle install
 
+       - name: Install yq
+         run: |
+             sudo apt-get update
+             sudo apt-get install -y yq
+
+       - name: Set environment to production in config.yml
+         run: |
+                 yq  '.baseurl = "ToolAssembly"' _config.yml
+
        - name: Build with Jekyll
 #        Outputs to the './_site' directory by default
          run: |
