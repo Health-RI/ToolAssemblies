@@ -2,9 +2,9 @@
 title: Data Lifecycle
 ---
 <div class="container pt-3">
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+    <div class="row">
         <div class="col">
-            <div class="svg-container">
+            <div class="svg-container" style="width:100%;height:60vh;overflow:auto;display:flex;align-items:center;justify-content:center;">
               {% include reactive_datalifecycle.svg %}
             </div>
         </div>
