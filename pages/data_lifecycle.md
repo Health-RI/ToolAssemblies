@@ -1,5 +1,6 @@
 ---
 title: Data Lifecycle
+toc: false
 ---
 <div class="container pt-3">
     <div class="row">
@@ -9,7 +10,7 @@ title: Data Lifecycle
             </div>
         </div>
       <div class="col">
-        <h3 id="display-stage-name">{{ site.data.lifecycle_stages[0].name }}</h3>
+        <h2 id="display-stage-name">{{ site.data.lifecycle_stages[0].name }}</h2>
         <p id="display-stage-description">{{ site.data.lifecycle_stages[0].text }}</p>
       </div>
     </div>

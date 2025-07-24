@@ -3,5 +3,7 @@ subitems:
     url: /index
   - title: Data Lifecycle
     url: /data_lifecycle
+  - title: Tool selection
+    url: /tool_selection
 
   
