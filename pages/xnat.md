@@ -56,7 +56,7 @@ phase: [Process, Analyse, Preserve, Share, Reuse]
 {% assign integrations = '{::nomarkdown}
 <ul>
     <li>
-        cBioPortal using <a href="https://gitlab.com/radiology/infrastructure/utils/xnat2cbio">xnat2cbio</a> and following the <a href="https://zenodo.org/records/14900295">EOSC4Cancer manual</a>
+        <a href="' | append: site.baseurl | append: '/cbioportal">cBioPortal</a> using <a href="https://gitlab.com/radiology/infrastructure/utils/xnat2cbio">xnat2cbio</a> and following the <a href="https://zenodo.org/records/14900295">EOSC4Cancer manual</a>
     </li>
 </ul>
 {:/}' | strip_newlines%}

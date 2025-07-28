@@ -27,7 +27,7 @@ phase: [Process, Analyse, Preserve, Share]
 {% assign integrations = '{::nomarkdown}
 <ul>
     <li>
-        cBioPortal: Allows embedding the Slide Score viewer within the cBioPortal interface as described <a href="https://www.slidescore.com/news/a/031_cbioportal">here</a>
+        <a href="' | append: site.baseurl | append: '/cbioportal">cBioPortal</a>: Allows embedding the Slide Score viewer within the cBioPortal interface as described <a href="https://www.slidescore.com/news/a/031_cbioportal">here</a>
     </li>
 </ul>
 {:/}' | strip_newlines%}

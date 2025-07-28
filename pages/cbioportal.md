@@ -55,10 +55,10 @@ phase: [Process, Analyse, Share]
 {% assign integrations = '{::nomarkdown}
 <ul>
     <li>
-        SlideScore: Enables slide viewer embedding within cBioPortal interface as described <a href="https://www.slidescore.com/news/a/031_cbioportal">here</a>
+        <a href="' | append: site.baseurl | append: '/slidescore">Slide Score</a>: Enables slide viewer embedding within cBioPortal interface as described <a href="https://www.slidescore.com/news/a/031_cbioportal">here</a>
     </li>
     <li>
-        XNAT using <a href="https://gitlab.com/radiology/infrastructure/utils/xnat2cbio">xnat2cbio</a> and following the <a href="https://zenodo.org/records/14900295">EOSC4Cancer manual</a>
+        <a href="' | append: site.baseurl | append: '/xnat">XNAT</a> using <a href="https://gitlab.com/radiology/infrastructure/utils/xnat2cbio">xnat2cbio</a> and following the <a href="https://zenodo.org/records/14900295">EOSC4Cancer manual</a>
     </li>
     <li>
         xOpat following the <a href="https://zenodo.org/records/14900295">EOSC4Cancer manual</a>
