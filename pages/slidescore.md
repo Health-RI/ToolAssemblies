@@ -5,6 +5,7 @@ type: tool
 page_img: /tools/slidescore.png
 domain: [Oncology]
 phase: [Process, Analyse, Preserve, Share]
+compatible_with: [cbioportal]
 ---
 
 [//]: # (// Resource URLs)
@@ -50,3 +51,7 @@ phase: [Process, Analyse, Preserve, Share]
 | Type | Description  | URL |                                                                                                                                                                                                                                         
 |------|--------------|-----|
 |      |              |     |
+
+## Compatible with
+
+{% include show-tiles.html ids="cbioportal" %}

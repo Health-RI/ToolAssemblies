@@ -88,3 +88,8 @@ phase: [Process, Analyse, Share]
 |------|------------|--------------------------------------------------------------------------------------------------------|
 | Gap  | Clinical data harmonisation guidance: Researchers need support aligning clinical data elements to make them compatible with other datasets. |
 | Gap  | Low awareness of cBioPortal. |
+
+
+## Compatible with
+
+{% include show-tiles.html ids="slide-score, xnat" %}
