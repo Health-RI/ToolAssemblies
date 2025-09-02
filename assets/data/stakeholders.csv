@@ -1,0 +1,51 @@
+parents,labels,ids
+RPO,UMC,AUMC
+RPO,UMC,Erasmus MC
+RPO,UMC,LUMC
+RPO,UMC,MUMC
+RPO,UMC,RadboudMC
+RPO,UMC,UMCG
+RPO,UMC,UMCU
+RPO,University/DCC,TU
+RPO,University/DCC,TU/e
+RPO,University/DCC,UM
+RPO,University/DCC,UT
+RPO,University/DCC,RU
+RPO,University/DCC,RUG
+RPO,University/DCC,LU
+RPO,University/DCC,VU
+RPO,University/DCC,UvA
+RPO,University/DCC,WUR
+RPO,University/DCC,UU
+RPO,University/DCC,EUR
+RPO,University/DCC,TU Delft
+RSO,NLeSC,
+RSO,SURF,
+RSO,DANS,
+National initiatives,UNLOCK,
+National initiatives,NL-bioimaging,
+National initiatives,X-Omics,
+National initiatives,hDMT I SC,
+National initiatives,ARISE,
+National initiatives,LTER-LIFE,
+National initiatives,NPEC,
+National initiatives,NEMI,
+International initiatives,ELIXIR,Interoperability platform
+International initiatives,RDA,MaLDReTH
+International initiatives,RDA,GORC
+International initiatives,EOSC,
+International initiatives,Belnet,
+Policy drivers / funders,NWO,
+TDCCs,LSH,
+TDCCs,NES,
+TDCCs,SSH,
+Communities,Dutch Interoperability Network,
+Communities,NWO Research Communities for Life Sciences,
+Communities,DReaMS,
+Communities,RDM-Tec,
+Projects,Toolkit project,
+Projects,Health-AI,
+Internal,Data team,
+Internal,Architechture team,
+Internal,Services,
+Tools providers,,

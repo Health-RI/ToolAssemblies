@@ -3,6 +3,8 @@ subitems:
     url: /index
   - title: Data Lifecycle
     url: /data_lifecycle
+  - title: Stakeholders
+    url: /stakeholders
   - title: Tool selection
     url: /tool_selection
 
